@@ -51,7 +51,7 @@ const FeaturesSplit = ({
 
   const sectionHeader = {
     title: 'Our Services',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'At Carroza, we take pride in our commitment to bringing you the best services in the'
   };
 
   return (
@@ -70,10 +70,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div> */}
                 <h3 className="mt-0 mb-12">
-                CARROZA logistics.
+                CARROZA   E-logistics.
                   </h3>
                 <p className="m-0">
-                Our logistics arm oversees and ensures the timely end to end delivery of goods and customer satisfaction
+                At carroza, our e-logistics arm oversees, and ensures seemless and timely end-2-end delivery of goods, by standing as the intermediary between merchants, riders and users.
                   </p>
               </div>
               <div className={
@@ -99,7 +99,9 @@ const FeaturesSplit = ({
                 CARROZA E-commerce 
                   </h3>
                 <p className="m-0">
-                A platform from Carroza that enables registered merchants to showcase and sell their goods to the public via Carroza App.
+                A platform, from Carroza that enables registered merchants and users to sell & buy any type of goods via the Carroza App.
+                <br />
+We provide a reliable platform for all the filipino users to purchase various category, of products online and seemless delivery city-city from mobile phone.
                   </p>
               </div>
               <div className={
@@ -122,10 +124,10 @@ const FeaturesSplit = ({
                   Lightning fast workflow
                   </div> */}
                 <h3 className="mt-0 mb-12">
-                CARROZA Wholesales
+                CARROZA E-wholesales
                   </h3>
                 <p className="m-0">
-                This is a special online shopping store from Carroza, in partnership with major importers , manufacturers, warehouses with the goal of providing the retail traders and our users for cheap, bulk, and quality of goods.
+                This is a special online shopping store from carroza, in partnership with major importers manufacturers and warehouses with within the goal of providing to retail traders  and our users, cheaper, bulk, and quality goods.
                   </p>
               </div>
               <div className={

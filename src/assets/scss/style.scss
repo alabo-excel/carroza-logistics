@@ -126,3 +126,12 @@
 # Helpers
 --------------------------------------------------------------*/
 @import "core/base/helpers";
+
+
+.container .first{
+	margin-top: 150px;
+	text-align: center;
+}
+.text-3xl{
+	font-size: 40px;
+}

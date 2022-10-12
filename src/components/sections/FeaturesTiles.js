@@ -45,7 +45,7 @@ const FeaturesTiles = ({
 
   const sectionHeader = {
     title: 'Our commitment to you',
-    paragraph: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.'
+    paragraph: 'Carroza is cultured to bring satisfaction to your online shopping experience with the best in quality, price, timely delivery of items!'
   };
 
   return (
@@ -71,10 +71,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Safe and convenient
+                  SAFE AND CONVIENIENT
                     </h4>
                   <p className="m-0 text-sm">
-                  Transporting with CARROZA is easy, convenient and fast
+                  Safety of your purchased items are of utmost importance to us at carroza
                     </p>
                 </div>
               </div>
@@ -93,10 +93,10 @@ const FeaturesTiles = ({
                 </div>
                 <div className="features-tiles-item-content">
                   <h4 className="mt-0 mb-8">
-                  Always there for you
+                  ALWAYS THERE FOR YOU!           
                     </h4>
                   <p className="m-0 text-sm">
-                    CARROZA is always there for you anytime anyday
+                  Carroza Logistics is always there for you, bringing the market to your cellphone.
                     </p>
                 </div>
               </div>
