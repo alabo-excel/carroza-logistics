@@ -1,0 +1,33 @@
+.signup {
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+}
+
+.signup .download {
+    display: flex;
+    justify-content: center;
+}
+
+.signup .download a img {
+    width: 200px;
+    margin: 20px;
+}
+
+.line {
+    border-bottom: 2px solid gray;
+}
+
+.text {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 767px) {
+    .signup .download {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,10 +1,11 @@
-import React  from 'react';
+import React from 'react';
 import classNames from 'classnames';
 import { SectionProps } from '../../utils/SectionProps';
 import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 // import Modal from '../elements/Modal';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
   ...SectionProps.types
@@ -61,20 +62,19 @@ const Hero = ({
         <div className={innerClasses}>
           <div className="hero-content">
             <h1 className="mt-0 mb-16 reveal-from-bottom" data-reveal-delay="200">
-             <span className="text-color-primary">CARROZA </span>
+              <span className="text-color-primary">CARROZA </span>
             </h1>
             <div className="container-xs">
               <p className="m-0 mb-32 reveal-from-bottom" data-reveal-delay="400">
-              Your reliable and friendly e-commerce and logistic platform dedicated, to your ease and seemless logistics and delivery.
+                Your reliable and friendly e-commerce and logistic platform dedicated, to your ease and seemless logistics and delivery.
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
                 <ButtonGroup>
-                  {/* <Button tag="a" color="primary" wideMobile href="https://cruip.com/">
-                    Get started
-                    </Button> */}
-                  <Button tag="a" color="dark" wideMobile >
-                   Download App
+                  <Link to="/signup">
+                    <Button tag="a" color="dark" wideMobile >
+                      Sign Up Now
                     </Button>
+                  </Link>
                 </ButtonGroup>
               </div>
             </div>
@@ -86,12 +86,12 @@ const Hero = ({
               aria-controls="video-modal"
               onClick={openModal}
             > */}
-              <Image
-                className="has-shadow"
-                src={require('./../../assets/images/video-placeholder.png')}
-                alt="Hero"
-                width={896}
-                height={504} />
+            <Image
+              className="has-shadow"
+              src={require('./../../assets/images/video-placeholder.png')}
+              alt="Hero"
+              width={896}
+              height={504} />
             {/* </a> */}
           </div>
           {/* <Modal

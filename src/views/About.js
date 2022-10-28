@@ -12,7 +12,7 @@ const Home = () => {
         <>
             <div className='container'>
                 <div className='first'>
-                    <div className='text-3xl'>            About Us</div>
+                    <div className='text-3xl'>About Us</div>
                     <br />
                     We  are a group of seasoned industry professionals who are  passionate and diligent, with experience from various sectors spanning through, international trades, Maritime and logistics, with a across  boarder  synergy with major players in both local and foreign market in the e-commerce and E-Logistics ecosystem.
                 </div>
